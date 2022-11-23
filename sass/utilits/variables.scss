@@ -1,9 +1,14 @@
 $primari-text-color: #212121;
 $secondary-text-color: #757575;
-$background-color: #ffffff;
 $accent: #2196f3;
+$background-color: #ffffff;
 $background-color-btn: #188ce8;
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: $primari-text-color;
+  background-color: $background-color;
+}
 h1,
 h2,
 h3,
@@ -14,11 +19,6 @@ p,
 ul {
   margin: 0;
   padding: 0;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  color: $primari-text-color;
-  background-color: $background-color;
 }
 li {
   list-style-type: none;
