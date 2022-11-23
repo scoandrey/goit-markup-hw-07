@@ -28,6 +28,11 @@ a {
 img {
   display: block;
 }
+.link:hover,
+.link:focus {
+  --accent: #2196f3;
+  color: var(--accent);
+}
 
 /*header*/
 
@@ -151,11 +156,6 @@ img {
   margin-right: 10px;
   fill: currentColor;
 }
-.link:hover,
-.link:focus {
-  --accent: #2196f3;
-  color: var(--accent);
-}
 
 /*section-main*/
 
@@ -213,7 +213,7 @@ img {
   color: #ffffff;
 }
 
-/* modal window*/
+/* backdrop */
 
 .backdrop {
   position: fixed;
@@ -233,6 +233,9 @@ img {
   opacity: 0;
   pointer-events: none;
 }
+
+/* modal */
+
 .modal {
   position: absolute;
   top: 50%;
@@ -608,7 +611,7 @@ img {
   margin-right: 10px;
 }
 
-/* constant-client */
+/* section-clients */
 
 .section-clients__container {
   width: 1200px;
@@ -773,7 +776,7 @@ img {
   margin-left: 10px;
 }
 
-/*hero*/
+/*cap*/
 
 .cap {
   padding-top: 94px;
