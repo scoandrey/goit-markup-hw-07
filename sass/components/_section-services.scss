@@ -1,6 +1,8 @@
 .section-services {
   &__container {
-    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
